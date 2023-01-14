@@ -1,12 +1,16 @@
 # Reactjs RECEPIAPP 🥗
 ## Getting Started with Create React App
 
-## Requirements
+## Requirements & Features
 -React js 
 
 -HOOKS
 
 -The Mealsdb APIS.
+
+-YouVedio for recepi preparation
+
+-Recepi search option.
 
 #### [Live Link] (https://sprightly-sherbet-231b65.netlify.app/)
 
