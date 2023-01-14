@@ -8,7 +8,7 @@
 
 -The Mealsdb APIS.
 
--YouVedio for recepi preparation
+-YouTube Vedio for recepi preparation
 
 -Recepi search option.
 
