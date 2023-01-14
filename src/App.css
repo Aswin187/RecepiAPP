@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bona Nova', serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    background-color: #fcde67;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.heading h1{
+    color:#030e12;
+    font-size: 48px;
+    font-weight:900;
+    letter-spacing: 1px;
+    padding-top:2rem;
+    margin: 1rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-bar{
+    margin: 1rem 0;
+    width:400px;
+    height:40px;
+    border:none;
+    outline:none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+}
+.container{
+    width: 80%;
+    margin:25px auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 2rem;
+}
+.card{
+    width: 180px;
+    border-radius: 1rem;
+    background-color: #030e12;
+    padding: 5px;
+}
+.card img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card h3{
+    color:white;
+    font-size: 18px;
+}
+.content img{
+    width: 100%;
+    height: 600px;
+}  
+.content .inner-content{
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 5px 5px rgba(0,0,0,05);
+}
+.recipe-details{
+    width: 70%;
+    margin:2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ingredients,.instructions{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.ingredients h4{
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+.video{
+    width: 80%;
+    margin: 3rem auto;
+}
+.indexContainer{
+    display: flex;
+    margin: 2.5rem 0;
+}
+.numbox {
+    width: 50px;
+    height: 40px;
+    background-color: #7c7c62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 5px 0 5px;
 }
